@@ -2,8 +2,8 @@
     <Source>
         <Name>python-pymol</Name>
         <Packager>
-            <Name>Santiago Santoro</Name>
-            <Email>sjsantoro@gmail.com</Email>
+            <Name>Bryan T. Meyers</Name>
+            <Email>bmeyers@datadrake.com</Email>
         </Packager>
         <License>Python-2.0</License>
         <PartOf>programming.python</PartOf>
@@ -854,12 +854,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="1">
-            <Date>2017-04-08</Date>
+        <Update release="2">
+            <Date>2017-04-20</Date>
             <Version>1.8.6.0</Version>
             <Comment>Packaging update</Comment>
-            <Name>Santiago Santoro</Name>
-            <Email>sjsantoro@gmail.com</Email>
+            <Name>Bryan T. Meyers</Name>
+            <Email>bmeyers@datadrake.com</Email>
         </Update>
     </History>
 </PISI>

@@ -1,11 +1,12 @@
 name       : python-pymol
 version    : 1.8.6.0
-release    : 1
+release    : 2
 source     :
     - https://downloads.sourceforge.net/project/pymol/pymol/1.8/pymol-v1.8.6.0.tar.bz2 : 7eaaf90ac1e1be0969291cdb1154b3631b5b6403cce1d697133d90cd37a3c565
 license    : Python-2.0
 component  : programming.python
-summary    : PyMOL is an open-source molecular visualization system built on an open-source foundation.
+summary    : PyMOL is an open-source molecular visualization system built on an open-source
+    foundation.
 description: |
     PyMOL is an open-source molecular visualization system built on an open-source foundation.
 builddeps  :
@@ -15,7 +16,7 @@ builddeps  :
     - pkgconfig(libxml-2.0)
     - pkgconfig(msgpack)
     - freeglut-devel
-rundeps :
+rundeps    :
     - python-pmw
     - python-tkinter
 setup      : |
