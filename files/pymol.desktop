@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.8.6.0
+Type=Application
+Name=PyMOL Molecular Visualization System
+GenericName=Molecular visualizer
+Comment=Open-source molecular visualization system built on an open-source foundation.
+TryExec=pymol
+Exec=pymol %F
+Terminal=false
+Icon=pymol
+Categories=Graphics;Education;Science;Chemistry;
+Keywords=molecular visualization system;molecular structures;crystallography;pdb;structural biology;biochemistry;

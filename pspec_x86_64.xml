@@ -2,8 +2,8 @@
     <Source>
         <Name>python-pymol</Name>
         <Packager>
-            <Name>Bryan T. Meyers</Name>
-            <Email>bmeyers@datadrake.com</Email>
+            <Name>ivanhoe1024</Name>
+            <Email>ivanhoe1024@gmail.com</Email>
         </Packager>
         <License>Python-2.0</License>
         <PartOf>programming.python</PartOf>
@@ -851,15 +851,17 @@
             <Path fileType="library">/usr/lib/python2.7/site-packages/web/examples/justhttpd.pyc</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/web/pymolhttpd.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/web/pymolhttpd.pyc</Path>
+            <Path fileType="data">/usr/share/applications/pymol.desktop</Path>
+            <Path fileType="data">/usr/share/pixmaps/pymol.png</Path>
         </Files>
     </Package>
     <History>
-        <Update release="2">
-            <Date>2017-04-20</Date>
+        <Update release="3">
+            <Date>2017-12-10</Date>
             <Version>1.8.6.0</Version>
             <Comment>Packaging update</Comment>
-            <Name>Bryan T. Meyers</Name>
-            <Email>bmeyers@datadrake.com</Email>
+            <Name>ivanhoe1024</Name>
+            <Email>ivanhoe1024@gmail.com</Email>
         </Update>
     </History>
 </PISI>
