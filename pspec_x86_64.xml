@@ -2,19 +2,19 @@
     <Source>
         <Name>python-pymol</Name>
         <Packager>
-            <Name>ivanhoe1024</Name>
-            <Email>ivanhoe1024@gmail.com</Email>
+            <Name>Pierre-Yves</Name>
+            <Email>pyu@riseup.net</Email>
         </Packager>
         <License>Python-2.0</License>
         <PartOf>programming.python</PartOf>
-        <Summary xml:lang="en">PyMOL is an open-source molecular visualization system built on an open-source foundation.</Summary>
+        <Summary xml:lang="en">PyMOL is an open-source molecular visualization system built on an open-source foundation</Summary>
         <Description xml:lang="en">PyMOL is an open-source molecular visualization system built on an open-source foundation.
 </Description>
         <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
     </Source>
     <Package>
         <Name>python-pymol</Name>
-        <Summary xml:lang="en">PyMOL is an open-source molecular visualization system built on an open-source foundation.</Summary>
+        <Summary xml:lang="en">PyMOL is an open-source molecular visualization system built on an open-source foundation</Summary>
         <Description xml:lang="en">PyMOL is an open-source molecular visualization system built on an open-source foundation.
 </Description>
         <PartOf>programming.python</PartOf>
@@ -856,12 +856,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="3">
-            <Date>2017-12-10</Date>
+        <Update release="4">
+            <Date>2018-04-30</Date>
             <Version>1.8.6.0</Version>
             <Comment>Packaging update</Comment>
-            <Name>ivanhoe1024</Name>
-            <Email>ivanhoe1024@gmail.com</Email>
+            <Name>Pierre-Yves</Name>
+            <Email>pyu@riseup.net</Email>
         </Update>
     </History>
 </PISI>
