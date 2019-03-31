@@ -2,15 +2,15 @@
     <Source>
         <Name>python-pymol</Name>
         <Packager>
-            <Name>Pierre-Yves</Name>
-            <Email>pyu@riseup.net</Email>
+            <Name>Bryan T. Meyers</Name>
+            <Email>bmeyers@datadrake.com</Email>
         </Packager>
         <License>Python-2.0</License>
         <PartOf>programming.python</PartOf>
         <Summary xml:lang="en">PyMOL is an open-source molecular visualization system built on an open-source foundation</Summary>
         <Description xml:lang="en">PyMOL is an open-source molecular visualization system built on an open-source foundation.
 </Description>
-        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
     </Source>
     <Package>
         <Name>python-pymol</Name>
@@ -19,7 +19,7 @@
 </Description>
         <PartOf>programming.python</PartOf>
         <Files>
-            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="executable">/usr/bin/pymol</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/chempy/__init__.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/chempy/__init__.pyc</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/chempy/arc.py</Path>
@@ -133,6 +133,56 @@
             <Path fileType="library">/usr/lib/python2.7/site-packages/chempy/water_residues.pyc</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/chempy/xyz.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/chempy/xyz.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pmg_qt/TextEditor.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pmg_qt/TextEditor.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pmg_qt/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pmg_qt/__init__.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pmg_qt/advanced_settings_gui.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pmg_qt/advanced_settings_gui.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pmg_qt/builder.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pmg_qt/builder.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pmg_qt/file_dialogs.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pmg_qt/file_dialogs.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pmg_qt/forms/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pmg_qt/forms/__init__.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pmg_qt/forms/askpartial.ui</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pmg_qt/forms/colors.ui</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pmg_qt/forms/fetch.ui</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pmg_qt/forms/load_aln.ui</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pmg_qt/forms/load_mae.ui</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pmg_qt/forms/load_map.ui</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pmg_qt/forms/load_mtz.ui</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pmg_qt/forms/load_traj.ui</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pmg_qt/forms/movieexport.ui</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pmg_qt/forms/pluginitem.ui</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pmg_qt/forms/pluginmanager.ui</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pmg_qt/forms/png.ui</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pmg_qt/forms/props.ui</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pmg_qt/forms/render.ui</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pmg_qt/forms/save_molecule.ui</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pmg_qt/forms/save_object.ui</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pmg_qt/keymapping.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pmg_qt/keymapping.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pmg_qt/mimic_pmg_tk.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pmg_qt/mimic_pmg_tk.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pmg_qt/mimic_tk.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pmg_qt/mimic_tk.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pmg_qt/properties_dialog.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pmg_qt/properties_dialog.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pmg_qt/pymol_gl_widget.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pmg_qt/pymol_gl_widget.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pmg_qt/pymol_qt_gui.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pmg_qt/pymol_qt_gui.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pmg_qt/syntax/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pmg_qt/syntax/__init__.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pmg_qt/syntax/pml.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pmg_qt/syntax/pml.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pmg_qt/syntax/pmlparser.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pmg_qt/syntax/pmlparser.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pmg_qt/syntax/python.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pmg_qt/syntax/python.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pmg_qt/volume.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pmg_qt/volume.pyc</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pmg_tk/ColorEditor.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pmg_tk/ColorEditor.pyc</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pmg_tk/Demo.py</Path>
@@ -163,18 +213,20 @@
             <Path fileType="library">/usr/lib/python2.7/site-packages/pmg_tk/startup/__init__.pyc</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pmg_tk/startup/apbs_tools.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pmg_tk/startup/apbs_tools.pyc</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/pmg_tk/startup/remote_pdb_load.py</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/pmg_tk/startup/remote_pdb_load.pyc</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pmg_tk/volume.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pmg_tk/volume.pyc</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/pmg_wx/__init__.py</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/pmg_wx/__init__.pyc</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/pymol-1.8.6.0-py2.7.egg-info</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pymol-2.3.0-py2.7.egg-info</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/Qt/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/Qt/__init__.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/Qt/utils.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/Qt/utils.pyc</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/__init__.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/__init__.pyc</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/__main__.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/__main__.pyc</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/_cmd.so</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/_gui.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/_gui.pyc</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/api.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/api.pyc</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/callback.py</Path>
@@ -185,6 +237,8 @@
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/checking.pyc</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/cmd.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/cmd.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/colorprinting.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/colorprinting.pyc</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/colorramping.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/colorramping.pyc</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/commanding.py</Path>
@@ -203,6 +257,8 @@
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/controlling.pyc</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/creating.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/creating.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/diagnosing.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/diagnosing.pyc</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/editing.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/editing.pyc</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/editor.py</Path>
@@ -239,6 +295,8 @@
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/keyboard.pyc</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/keywords.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/keywords.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/lazyio.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/lazyio.pyc</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/locking.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/locking.pyc</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/m4x.py</Path>
@@ -273,6 +331,8 @@
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/plugins/legacysupport.pyc</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/plugins/managergui.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/plugins/managergui.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/plugins/managergui_qt.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/plugins/managergui_qt.pyc</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/plugins/repository.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/plugins/repository.pyc</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/povray.py</Path>
@@ -289,6 +349,7 @@
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/chempy/fragments/asn.pkl</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/chempy/fragments/asp.pkl</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/chempy/fragments/asph.pkl</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/chempy/fragments/atp.pkl</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/chempy/fragments/benzene.pkl</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/chempy/fragments/benzocycloheptane.pkl</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/chempy/fragments/butane.pkl</Path>
@@ -319,6 +380,7 @@
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/chempy/fragments/ct_trp.pkl</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/chempy/fragments/ct_tyr.pkl</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/chempy/fragments/ct_val.pkl</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/chempy/fragments/ctp.pkl</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/chempy/fragments/cyanide.pkl</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/chempy/fragments/cyclobutane.pkl</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/chempy/fragments/cycloheptane.pkl</Path>
@@ -335,6 +397,7 @@
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/chempy/fragments/glu.pkl</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/chempy/fragments/gluh.pkl</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/chempy/fragments/gly.pkl</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/chempy/fragments/gtp.pkl</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/chempy/fragments/hid.pkl</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/chempy/fragments/hie.pkl</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/chempy/fragments/hip.pkl</Path>
@@ -388,7 +451,9 @@
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/chempy/fragments/thr.pkl</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/chempy/fragments/trifluoromethane.pkl</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/chempy/fragments/trp.pkl</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/chempy/fragments/ttp.pkl</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/chempy/fragments/tyr.pkl</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/chempy/fragments/utp.pkl</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/chempy/fragments/val.pkl</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/chempy/sidechains/generate1.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/chempy/sidechains/generate2.py</Path>
@@ -417,6 +482,8 @@
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/demo/il2.pdb</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/demo/pept.pdb</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/demo/pept.pkl</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/pmg_qt/icons/refresh.svg</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/pmg_qt/styles/pymol.sty</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/pmg_tk/bitmaps/builder/aro5.gif</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/pmg_tk/bitmaps/builder/aro5.xbm</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/pmg_tk/bitmaps/builder/aro6.gif</Path>
@@ -439,43 +506,55 @@
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/pmg_tk/bitmaps/builder/cyc7.xbm</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/pymol/cmyk.png</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/pymol/hsv.ppm</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/pymol/icons/icon2.svg</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/pymol/matrices/BLOSUM62</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/pymol/splash.png</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/shaders/anaglyph.fs</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/shaders/anaglyph_header.fs</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/shaders/bg.fs</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/shaders/bg.vs</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/shaders/call_compute_color_for_light.fs</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/shaders/compute_color_for_light.fs</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/shaders/compute_fog_color.fs</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/shaders/connector.fs</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/shaders/connector.gs</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/shaders/connector.shared</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/shaders/connector.vs</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/shaders/copy.fs</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/shaders/copy.vs</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/shaders/cylinder.fs</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/shaders/cylinder.vs</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/shaders/default.fs</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/shaders/default.vs</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/shaders/default_es.fs</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/shaders/default_es.vs</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/shaders/default_es2.fs</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/shaders/default_es2.vs</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/shaders/defaultscreen.fs</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/shaders/defaultscreen.vs</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/shaders/indicator.fs</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/shaders/indicator.vs</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/shaders/label.fs</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/shaders/label.vs</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/shaders/labelscreen.fs</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/shaders/labelscreen.vs</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/shaders/line.fs</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/shaders/line.vs</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/shaders/oit.fs</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/shaders/oit.vs</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/shaders/ramp.fs</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/shaders/ramp.vs</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/shaders/screen.fs</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/shaders/screen.vs</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/shaders/shadertext.txt</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/shaders/sphere.fs</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/shaders/sphere.vs</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/shaders/sphere_arb_fs.fs</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/shaders/sphere_arb_vs.vs</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/shaders/spheredirect.vs</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/shaders/surface.fs</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/shaders/surface.vs</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/shaders/trilines.fs</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/shaders/trilines.vs</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/shaders/volume.fs</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/shaders/volume.vs</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/shaders/webgl_header.fs</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/shaders/webgl_header.vs</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/startup/README.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/startup/lightingsettings_gui/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/startup/lightingsettings_gui/main.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/test/double.png</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/test/single-right.png</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/test/single.png</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/data/tut/1hpv.pdb</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/examples/chempy/generate_amber.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/examples/chempy/generate_mmff.py</Path>
@@ -545,18 +624,6 @@
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/examples/launching/launch_no_tk.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/examples/launching/launch_viewer1.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/examples/launching/launch_viewer2.py</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/examples/package/redhat/pymol-0.93-1.rh62.py152.spec</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/examples/package/redhat/pymol-0.93-1.rh70.py152.spec</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/examples/package/redhat/pymol-0.93-1.rh72.py21.spec</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/examples/package/redhat/pymol-0.93-1.rh73.py22.spec</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/examples/package/redhat/pymol-0.93-1.rh80.py22.spec</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/examples/package/redhat/pymol-0.93-1.rh90.py22.spec</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/examples/package/redhat/pymol-0.96-1.rh62.py152.spec</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/examples/package/redhat/pymol-0.96-1.rh70.py152.spec</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/examples/package/redhat/pymol-0.96-1.rh72.py21.spec</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/examples/package/redhat/pymol-0.96-1.rh73.py22.spec</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/examples/package/redhat/pymol-0.96-1.rh80.py22.spec</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/examples/package/redhat/pymol-0.96-1.rh90.py22.spec</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/scripts/metaphorics/alignment.pml</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/scripts/metaphorics/annotate.pml</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/scripts/metaphorics/fedora.pml</Path>
@@ -765,6 +832,8 @@
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/test/trim.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/test/vdiff</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymol_path/test/win.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymolhttpd.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/pymolhttpd.pyc</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/querying.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/querying.pyc</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/rpc.py</Path>
@@ -773,10 +842,14 @@
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/selecting.pyc</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/selector.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/selector.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/seqalign.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/seqalign.pyc</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/setting.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/setting.pyc</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/shortcut.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/shortcut.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/stereochemistry/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/stereochemistry/__init__.pyc</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/util.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/util.pyc</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/vfont.py</Path>
@@ -819,6 +892,8 @@
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/wizard/message.pyc</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/wizard/mutagenesis.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/wizard/mutagenesis.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/wizard/nucmutagenesis.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/wizard/nucmutagenesis.pyc</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/wizard/pair_fit.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/wizard/pair_fit.pyc</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol/wizard/pseudoatom.py</Path>
@@ -843,25 +918,17 @@
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol2/__init__.pyc</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol2/cmd2.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pymol2/cmd2.pyc</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/web/__init__.py</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/web/__init__.pyc</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/web/examples/__init__.py</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/web/examples/__init__.pyc</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/web/examples/justhttpd.py</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/web/examples/justhttpd.pyc</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/web/pymolhttpd.py</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/web/pymolhttpd.pyc</Path>
             <Path fileType="data">/usr/share/applications/pymol.desktop</Path>
             <Path fileType="data">/usr/share/pixmaps/pymol.png</Path>
         </Files>
     </Package>
     <History>
-        <Update release="4">
-            <Date>2018-04-30</Date>
-            <Version>1.8.6.0</Version>
+        <Update release="5">
+            <Date>2019-03-31</Date>
+            <Version>2.3.0</Version>
             <Comment>Packaging update</Comment>
-            <Name>Pierre-Yves</Name>
-            <Email>pyu@riseup.net</Email>
+            <Name>Bryan T. Meyers</Name>
+            <Email>bmeyers@datadrake.com</Email>
         </Update>
     </History>
 </PISI>
