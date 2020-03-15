@@ -1,6 +1,6 @@
 name       : python-pymol
 version    : 2.3.0
-release    : 5
+release    : 6
 source     :
     - https://github.com/schrodinger/pymol-open-source/archive/v2.3.0.tar.gz : 62aa21fafd1db805c876f89466e47513809f8198395e1f00a5f5cc40d6f40ed0
 license    : Python-2.0
@@ -9,10 +9,10 @@ summary    : PyMOL is an open-source molecular visualization system built on an 
 description: |
     PyMOL is an open-source molecular visualization system built on an open-source foundation.
 builddeps  :
-    - pkgconfig(freeglut)
     - pkgconfig(freetype2)
     - pkgconfig(glew)
     - pkgconfig(glm)
+    - pkgconfig(glut)
     - pkgconfig(libpng)
     - pkgconfig(libxml-2.0)
     - pkgconfig(msgpack)

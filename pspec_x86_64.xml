@@ -2,8 +2,8 @@
     <Source>
         <Name>python-pymol</Name>
         <Packager>
-            <Name>Bryan T. Meyers</Name>
-            <Email>bmeyers@datadrake.com</Email>
+            <Name>Pierre-Yves</Name>
+            <Email>pyu@riseup.net</Email>
         </Packager>
         <License>Python-2.0</License>
         <PartOf>programming.python</PartOf>
@@ -923,12 +923,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="5">
-            <Date>2019-03-31</Date>
+        <Update release="6">
+            <Date>2020-03-15</Date>
             <Version>2.3.0</Version>
             <Comment>Packaging update</Comment>
-            <Name>Bryan T. Meyers</Name>
-            <Email>bmeyers@datadrake.com</Email>
+            <Name>Pierre-Yves</Name>
+            <Email>pyu@riseup.net</Email>
         </Update>
     </History>
 </PISI>
